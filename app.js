@@ -24,7 +24,7 @@ const Category = require('./Models/Category')
 
 const shopRoute = require('./routes/Shop/getShopRoute');
 
-app.use(shopRoute.getIndexRoute);
+app.use('/',shopRoute.getIndexRoute);
 
 // Admin Route 
 
