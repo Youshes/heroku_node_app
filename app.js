@@ -40,7 +40,7 @@ app.use('/admin',postAdminRoute.postAdminRoute);
 Product.belongsTo(Category)
 
 
-db.sync({force : false});
+db.sync({force : true});
 
 
 app.listen(process.env.PORT);
