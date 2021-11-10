@@ -43,4 +43,4 @@ Product.belongsTo(Category)
 db.sync({force : false});
 
 
-app.listen(3000);
+app.listen(process.env.PORT);
